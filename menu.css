@@ -1,0 +1,554 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:wght@900&display=swap');
+
+.nav-flex-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: absolute;
+    z-index: 100;
+    left: 0;
+    width: 100%;
+    padding: 0;
+    text-decoration: none;
+}
+.homenav:hover{
+  color:#ffb400; 
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.reservationnav:hover{
+  color:#ff830c; 
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.menunav:hover{
+  color:#ff5218; 
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+.teamnav:hover{
+  color:#ff2124; 
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.line { 
+  background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
+  height: 3px ;
+}
+.empty{ 
+  background-image: white;
+  height: 50px;
+}
+
+.nav-flex-row li {
+    text-decoration: none;
+    list-style-type: none;
+    padding: 20px 15px;
+    text-decoration: none;
+}
+
+.nav-flex-row li a {
+    font-family: 'Poppins';
+    color: #ffffff;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: 900;
+    text-decoration: none;
+}
+.section-menu {
+  font-family: 'Poppins';
+  background-image: url("img/menu.jpg");
+  font-weight: 900;
+  height: 300px;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white; 
+}
+
+
+@import url(https://fonts.googleapis.com/css?family=Dancing+Script:700);
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic);
+
+body {
+	overflow-x: hidden;
+	font: 400 16px/1.8 'Crimson Text', serif;
+	color: #666;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+a {
+	color: #F5D76E;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #999;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * Alerts style
+/* ---------------------------------------------- */
+
+.alert {
+	border: 0;
+}
+
+.help-block {
+	font-size: 14px;
+	color: #a94442;
+}
+
+.help-block ul {
+	list-style: none;
+	padding: 0 15px;
+	margin: 0;
+}
+
+/* ---------------------------------------------- /*
+ * Progress bars
+/* ---------------------------------------------- */
+
+.progress,
+.progress-bar {
+	-webkit-box-shadow: none;
+			box-shadow: none;
+}
+
+.progress-bar {
+	background-color: #F5D76E;
+}
+
+/* ---------------------------------------------- /*
+ * Tabs
+/* ---------------------------------------------- */
+
+.nav-pills, .nav-tabs {
+	margin-bottom: 20px;
+}
+
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus {
+	background: #F5D76E;
+}
+
+/* ---------------------------------------------- /*
+ * Panels
+/* ---------------------------------------------- */
+
+.panel {
+	border: 0;
+}
+
+.panel-body {
+	background: #f5f5f5;
+}
+
+.panel-group .panel-heading + .panel-collapse > .panel-body {
+	border: 0;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * Main
+/* ---------------------------------------------- */
+
+.module {
+	position: relative;
+	background: #fff;
+	padding: 40px 0;
+}
+
+.module-gray {
+	background: #f5f5f5;
+}
+
+.module-dark {
+	background: #0E0E0E;
+}
+
+
+
+/* ---------------------------------------------- /*
+ * Menu
+/* ---------------------------------------------- */
+
+.menu {
+	border-bottom: 1px dotted #DDD;
+	padding: 0 0 10px;
+	margin: 0 0 20px;
+}
+
+.menu-classic img {
+	margin: 0 0 10px;
+}
+
+.menu-title,
+.menu-price {
+	font-size: 16px;
+	margin: 0;
+}
+
+.menu-detail {
+	font-size: 14px;
+}
+
+.menu-price-detail {
+	position: relative;
+	text-align: right;
+}
+
+.menu-label {
+	background: #fae7d7;
+	position: relative;
+	display: inline-block;
+	padding: 2px 10px 0px 10px;
+	font-family: 'Crimson Text', serif;
+	letter-spacing: 1px;
+	font-style: italic;
+	font-size: 13px;
+	float: right;
+	top: 5px;
+}
+
+
+
+
+
+.sli-examples .item:hover {
+	background: #f0f0f0;
+	color: #000;
+}
+
+.section-menu h1 {
+  font-family: 'Poppins';
+  font-weight: 900;
+  color: white;
+  text-align: center;
+}
+
+.section-menu h2 {
+  color: white;
+  font-style: italic;
+}
+
+.row {
+  font-family: 'Lora'
+}
+.link-to-book {
+  /*  color: #ffffff;
+    display: block;
+    border: 2px solid #ffffff;
+    padding: 5px 10px;*/
+    margin: 10px;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 0px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
+}
+
+a.link-to-book:hover {
+   /* background-color: linear-gradient( #ffb400, #ff2124);
+    color: #95999e;
+    text-decoration: none;*/
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+   background-position: right center; 
+   color: black;
+    text-decoration: none;
+}
+
+.about-section p,
+.about-section h3,
+.about-section article {
+    text-align: center;
+    justify-items: center;
+    width: 60%;
+    margin: auto;
+    font-family: 'Lora';
+    font-size: 30px;
+    font-style: italic;
+} 
+.carousel-inner {
+    height: 700px;
+}
+
+.row-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-column-form {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    margin: 30px 20px;
+}
+
+.btn.btn-primary {
+    font-family: "Poppins";
+    font-weight: 900;
+    color: #ffffff;
+    background-color: #95999e;
+    background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
+    text-transform: uppercase;
+    font-size: 16px;
+    padding: 5px 10px;
+    letter-spacing: 2px;
+    border: 0;
+}
+
+.btn.btn-primary:hover {
+       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    background-position: right center; 
+    
+}
+.opening-time,
+.contact-adress {
+    flex: 1;
+    margin: 30px 20px;
+    font-size: 1.2em;
+}
+
+.form-group p {
+    font-size: 1.2em;
+}
+
+.opening-time p span,
+.contact-adress p span {
+    display: block;
+}
+
+@media (min-width:577px) and (max-width: 800px) {
+
+    .section-intro {
+        height: 500px;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 20px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .section-intro {
+        height: 300px;
+    }
+
+    .about-section {
+        padding: 30px;
+    }
+
+    .section-intro h1 {
+        font-size: 2em;
+    }
+
+    .about-section p,
+    .about-section h3 {
+        font-size: 15px;
+    }
+
+    .carousel-inner {
+        height: auto;
+    }
+
+    .row-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .row-flex h3 {
+        font-size: 25px;
+        text-align: center;
+        font-weight: 900;
+    }
+
+    .form-group p {
+        font-size: 15px;
+    }
+    .opening-time h3{
+      font-weight:900;
+    }
+
+    .opening-time p span,
+    .contact-adress p span {
+        font-size: 15px;
+        text-align: center;
+    }
+
+}
+.logo{ 
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.opening-time h3{
+  font-family: 'Poppins';
+  font-weight: 900;
+}
+
+.flex-column-form h3{
+  font-family: 'Poppins';
+  font-weight: 900;
+}
+
+.contact-adress h3{
+  font-family: 'Poppins';
+  font-weight: 900;
+}
+
+.section-menu h2{
+  font-family: 'Lora';
+  font-style: italic;
+}
+
+.form-group p{
+  font-family: 'Lora';
+  font-style: italic;
+}
+
+.opening-time p{
+  font-family: 'Lora';
+  font-style: italic;
+}
+
+.contact-adress p{
+  font-family: 'Lora';
+  font-style: italic;
+}
+
+a:hover {
+ text-decoration: none;
+} 
+
+.fullmenu a{
+      margin: 10px;
+    font-family: "Poppins";
+    font-weight: 900;
+    font-size: 20px;
+    padding: 15px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 0px;
+    width: 200px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
+}
+a.fullmenu:hover {
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  background-position: right center; 
+  text-decoration: none;
+}
+.fullmenu:hover { 
+  text-decoration: none; 
+}
+.fullmenu{
+  padding-left: 443px;
+
+}
+.menu-title{
+  font-family: 'Poppins';
+  font-weight: 900;
+}
+.menu-detail{
+  font-style: italic;
+}
+.menu-label{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: bold;
+}
+
+
+input.twitter{
+    background-image: url(img/twitter.svg); /* 16px x 16px */
+    background-color:transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 20px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    position: relative;
+    padding-right: 16px;
+}
+
+input.facebook{
+    background-image: url(img/facebook.svg); /* 16px x 16px */
+    background-color:transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 20px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    position: relative;
+    padding-right: 16px;
+    
+}
+
+input.instagram{
+    background-image: url(img/instagram.svg); /* 16px x 16px */
+    background-color:transparent; /* make the button transparent */
+    background-repeat: no-repeat;  /* make the background image appear only once */
+    background-position: 0px 0px;  /* equivalent to 'top left' */
+    border: none;           /* assuming we don't want any borders */
+    cursor: pointer;        /* make the cursor like hovering over an <a> element */
+    height: 20px;           /* make this the size of your image */
+    padding-left: 16px;     /* make text start to the right of the image */
+    vertical-align: middle; /* align the text vertically centered */
+    position: relative;
+    padding-right: 16px;
+}
+
+.btn-group { 
+  
+}
+
+.viewfullmenu{
+  text-decoration: none;
+}
