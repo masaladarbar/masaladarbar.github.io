@@ -4,31 +4,31 @@
 @import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,600,700,400italic);
 @import url('https://fonts.googleapis.com/css2?family=Lora:ital@0;1&family=Poppins:wght@900&display=swap');
 /* font-family: 'Big Shoulders Text', cursive; */
- 
-#logoo{ 
-	position:fixed; 
-	top:0; 
-	left:0; 
-  padding-left:20px; 
-  padding-top:10px;
-  max-width:120px;
-  max-height:95px;
-  width: auto;
-  height: auto;
-}
- 
- h3{ 
-  font-family: 'Poppins';
-  font-weight: 900; 
-}
-p{ 
-  font-family: 'Lora';
-  font-style: italic;
+
+#logoo{
+    position:fixed;
+    top:0;
+    left:0;
+    padding-left:20px;
+    padding-top:10px;
+    max-width:120px;
+    max-height:95px;
+    width: auto;
+    height: auto;
 }
 
-.line { 
-  background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
-  height: 3px ;
+h3{
+    font-family: 'Poppins';
+    font-weight: 900;
+}
+p{
+    font-family: 'Lora';
+    font-style: italic;
+}
+
+.line {
+    background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
+    height: 3px ;
 }
 
 
@@ -59,20 +59,20 @@ p{
 }
 
 .homenav:hover{
-  color:#ffb400; 
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color:#ffb400;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .reservationnav:hover{
-  color:#ff830c; 
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color:#ff830c;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .menunav:hover{
-  color:#ff5218; 
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color:#ff5218;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 .teamnav:hover{
-  color:#ff2124; 
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    color:#ff2124;
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
 
@@ -86,8 +86,8 @@ p{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; 
-
+    color: white;
+    
 }
 
 .section-intro h1 {
@@ -117,10 +117,10 @@ p{
 }
 
 .link-to-book {
-  /*  color: #ffffff;
-    display: block;
-    border: 2px solid #ffffff;
-    padding: 5px 10px;*/
+    /*  color: #ffffff;
+     display: block;
+     border: 2px solid #ffffff;
+     padding: 5px 10px;*/
     margin: 10px;
     font-family: "Poppins";
     font-weight: 900;
@@ -143,13 +143,13 @@ p{
 }
 
 a.link-to-book:hover {
-   /* background-color: linear-gradient( #ffb400, #ff2124);
-    color: #95999e;
-    text-decoration: none;*/
+    /* background-color: linear-gradient( #ffb400, #ff2124);
+     color: #95999e;
+     text-decoration: none;*/
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin: 8px 10px 12px;
-   background-position: right center; 
-   color: black;
+    background-position: right center;
+    color: black;
     text-decoration: none;
 }
 
@@ -163,7 +163,7 @@ a.link-to-book:hover {
     font-family: 'Lora';
     font-size: 30px;
     font-style: italic;
-} 
+}
 .carousel-inner {
     height: 700px;
 }
@@ -181,21 +181,35 @@ a.link-to-book:hover {
 }
 
 .btn.btn-primary {
+    margin: 10px;
     font-family: "Poppins";
     font-weight: 900;
-    color: #ffffff;
-    background-color: #95999e;
-    background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
+    font-size: 15px;
+    padding: 15px;
+    text-align: center;
     text-transform: uppercase;
-    font-size: 16px;
-    padding: 5px 10px;
-    letter-spacing: 2px;
-    border: 0;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 20px #eee;
+    border-radius: 0px;
+    width: 90px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+    cursor: pointer;
+    display: inline-block;
+    border-radius: 5px;
+    background-image: linear-gradient(to right, #ffb400 0%, #ff2124 100%);
+    border: none;
 }
 
 .btn.btn-primary:hover {
-       box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-    margibackground-position: right center; 
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 8px 10px 12px;
+    background-position: right center;
+    color: black;
+    text-decoration: none;
+    border: none;
     
 }
 .opening-time,
@@ -215,20 +229,20 @@ a.link-to-book:hover {
 }
 
 @media (min-width:577px) and (max-width: 800px) {
-
+    
     .section-intro {
         height: 500px;
     }
-
+    
     .about-section p,
     .about-section h3 {
         font-size: 20px;
     }
-
+    
     .carousel-inner {
         height: auto;
     }
-
+    
     .row-flex {
         display: flex;
         flex-direction: column;
@@ -239,59 +253,59 @@ a.link-to-book:hover {
     .section-intro {
         height: 300px;
     }
-
+    
     .about-section {
         padding: 30px;
     }
-
+    
     .section-intro h1 {
         font-size: 2em;
     }
-
+    
     .about-section p,
     .about-section h3 {
         font-size: 15px;
     }
-
+    
     .carousel-inner {
         height: auto;
     }
-
+    
     .row-flex {
         display: flex;
         flex-direction: column;
     }
-
+    
     .row-flex h3 {
         font-size: 25px;
         text-align: center;
         font-weight: 900;
     }
-
+    
     .form-group p {
         font-size: 15px;
     }
     .opening-time h3{
-      font-weight:900;
+        font-weight:900;
     }
-
+    
     .opening-time p span,
     .contact-adress p span {
         font-size: 15px;
         text-align: center;
     }
-
+    
 }
-.logo{ 
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
+.logo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 /*index html ends
-
-
-/*reservation.html starts*/
+ 
+ 
+ /*reservation.html starts*/
 
 .form-group {
     margin-bottom:24px;
@@ -323,8 +337,8 @@ a.link-to-book:hover {
 }
 
 .section-title text-center {
-  font-family: 'Poppins';
-  font-weight: 900;
+    font-family: 'Poppins';
+    font-weight: 900;
 }
 .section-reservation {
     font-family: 'Poppins';
@@ -336,38 +350,38 @@ a.link-to-book:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; 
-   
+    color: white;
+    
 }
 .section-reservation h1 {
-text-align: center; 
-font-weight: 900;
+    text-align: center;
+    font-weight: 900;
 }
 
 .section-reservation h2 {
-  text-align: center; 
-  font-family: 'Lora';
-  font-style: italic;
+    text-align: center;
+    font-family: 'Lora';
+    font-style: italic;
 }
-.empty{ 
-  background-image: white;
-  height: 50px;
+.empty{
+    background-image: white;
+    height: 50px;
 }
 
 .form-group h4{
-  font-family: 'Poppins';
-  font-weight: 900;
+    font-family: 'Poppins';
+    font-weight: 900;
 }
-h4{ 
-  font-family: 'Poppins';
-  font-weight: 10;
+h4{
+    font-family: 'Poppins';
+    font-weight: 10;
 }
 
 .submit {
-  /*  color: #ffffff;
-    display: block;
-    border: 2px solid #ffffff;
-    padding: 5px 10px;*/
+    /*  color: #ffffff;
+     display: block;
+     border: 2px solid #ffffff;
+     padding: 5px 10px;*/
     margin: 10px;
     font-family: "Poppins";
     font-weight: 900;
@@ -376,11 +390,11 @@ h4{
     text-align: center;
     text-transform: uppercase;
     transition: 0.5s;
-    background-size: 100%;
+    background-size: 200% auto;
     color: white;
     box-shadow: 0 0 20px #eee;
     border-radius: 0px;
-    width: 150px;
+    width: 200px;
     box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
     transition: all 0.3s cubic-bezier(.25,.8,.25,1);
     cursor: pointer;
@@ -390,18 +404,18 @@ h4{
 }
 
 a.submit:hover {
-   /* background-color: linear-gradient( #ffb400, #ff2124);
-    color: #95999e;
-    text-decoration: none;*/
+    /* background-color: linear-gradient( #ffb400, #ff2124);
+     color: #95999e;
+     text-decoration: none;*/
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     margin: 8px 10px 12px;
-   background-position: right center; 
-   color: black;
+    background-position: right center;
+    color: black;
     text-decoration: none;
 }
 .sr-only label{
-  font-family: 'Lora';
-  font-style: italic;
+    font-family: 'Lora';
+    font-style: italic;
 }
 
 /*resertvation.html ends*/
@@ -528,7 +542,6 @@ a.submit:hover {
 .team-title span {
     font-size: 12px;
     color: #a5a5a5;
-    letter-spacing: 1px;
     font-family: 'Lora';
     font-style: italic;
 }
@@ -543,21 +556,21 @@ a.submit:hover {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: white; 
-   
+    color: white;
+    
 }
 .section-team h1 {
-text-align: center; 
-font-weight: 900;
+    text-align: center;
+    font-weight: 900;
 }
 
 .section-team h2 {
-  text-align: center; 
-  font-family: 'Lora';
-  font-style: italic;
+    text-align: center;
+    font-family: 'Lora';
+    font-style: italic;
 }
 
-/* team ends */ 
+/* team ends */
 
 /*social*/
 
@@ -604,6 +617,6 @@ input.instagram{
     padding-right: 16px;
 }
 
-.btn-group { 
-  
+.btn-group {
+    
 }
